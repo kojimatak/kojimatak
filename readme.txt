@@ -1,0 +1,23 @@
+2020.10.0729（木）
+
+Github  の練習を始める。
+
+2020.10.0729（木）
+
+1回目の書込みをする。
+https://qiita.com/Yuki_Yamashina/items/5d8208c450195b65344c
+
+3.ローカルでファイルを追加してadd→commit→push
+　まずは作成したリポジトリをローカルにクローンします；
+git clone https://github.com/ユーザー名/リポジトリ名.git
+　クローンしたリポジトリのディレクトリに移動してください；
+cd リポジトリ名
+　作成したhtmlファイル等をディレクトリ内にコピーしてください。 cssやらjsやらimagesやらがあればそのまままとめてコピーしてください；
+cp -r コピー元ディレクトリ/* ./
+　ファイルをaddします；
+git add *
+　ファイルをコミットします。コメントは適当に変えてください；
+git commit -m 'first commit'
+　pushしてGitHubのリポジトリに反映させてください；
+git push origin master
+この段階でGitHubのリポジトリページを見るとファイルがアップされているはずです。
